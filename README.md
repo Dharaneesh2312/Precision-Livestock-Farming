@@ -76,7 +76,7 @@ python chatbot.py
 
 Includes a plot of livestock health predictions based on temperature:
 
-![Livestock Dashboard](livestock_dashboard.png)
+![Livestock Dashboard](livestock_prediction_output.png)
 
 ---
 
