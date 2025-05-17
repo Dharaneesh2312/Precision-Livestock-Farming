@@ -26,20 +26,15 @@ A smart livestock monitoring solution using **IoT**, **AI**, and **chatbot** tec
 
 ## 🚀 How to Run the Project
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/livestock-farming.git
-cd livestock-farming
-````
 
-### 2. Train the AI Model
+### 1. Train the AI Model
 
 ```bash
 pip install pandas scikit-learn joblib
 python train_model.py
 ```
 
-### 3. Start the Flask Backend
+### 2. Start the Flask Backend
 
 ```bash
 pip install flask pandas joblib
@@ -48,13 +43,13 @@ python flask_backend.py
 
 Runs at: `http://localhost:5000/data`
 
-### 4. Upload ESP32 Code
+### 3. Upload ESP32 Code
 
 * Open `esp32_sensor.ino` in Arduino IDE
 * Replace Wi-Fi credentials and server IP
 * Upload to ESP32
 
-### 5. Run the Chatbot
+### 4. Run the Chatbot
 
 ```bash
 python chatbot.py
